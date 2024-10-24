@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vegana_비건레시피</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/vegana.css">
+    <link rel="stylesheet" href="css/m_vegana.css" media="screen and (max-width: 768px)">
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <h1><a href=""><span class="blind">LOGO</span></a></h1>
+            <ul class="nav">
+                <li><a href="">레시피</a></li>
+                <li><a href="">지도</a></li>
+                <li><a href="">커뮤니티</a></li>
+                <li><a href="">이벤트</a></li>
+                <li><a href="">QnA</a></li>
+            </ul>
+            <div class="utilArea">
+                <a href="#" class="btn_search"></a>
+                <a href="#" class="btn_user"></a>
+                <button class="btn_nav"><span class="blind">전체메뉴</span></button>
+            </div>
+        </header>
+
+        <!-- side Menu -->
+        <div class="total_nav">
+            <h2 class="blind">메뉴</h2>
+            <p class="logo"><span class="blind">로고</span></p>
+            <div>
+                <nav>
+                    <ul class="megamenu">
+                        <li class="gnb1">
+                            <a href="">레시피</a>
+                            <div>
+                                <ul>
+                                    <li><a href=""><span><em>레시피추천</em></span></a></li>
+                                    <li><a href=""><span><em>나의레시피노트</em></span></a></li>
+                                    <li><a href=""><span><em>베스트 레시피</em></span></a></li>
+                                    <li><a href=""><span><em>추천 레시피모음</em></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb2">
+                            <a href="">지도</a>
+                            <div>
+                                <ul>
+                                    <li><a href=""><span><em>식당 검색</em></span></a></li>
+                                    <li><a href=""><span><em>내 식당 북마크</em></span></a></li>
+                                    <li><a href=""><span><em>내 식당 찜</em></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb3">
+                            <a href="">커뮤니티</a>
+                            <div>
+                                <ul>
+                                    <li><a href=""><span><em>소통</em></span></a></li>
+                                    <li><a href=""><span><em>정보</em></span></a></li>
+                                    <li><a href=""><span><em>QnA</em></span></a></li>
+                                    <li><a href=""><span><em>후기</em></span></a></li>
+                                    <li><a href=""><span><em>글쓰기</em></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb4">
+                            <a href="">마이페이지</a>
+                            <div>
+                                <ul>
+                                    <li><a href=""><span><em>개인정보</em></span></a></li>
+                                    <li><a href=""><span><em>환경설정</em></span></a></li>
+                                    <li><a href=""><span><em>내 북마크</em></span></a></li>
+                                    <li><a href=""><span><em>내 찜</em></span></a></li>
+                                    <li><a href=""><span><em>내 레시피</em></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb5">
+                            <a href="">이벤트&amp;홍보</a>
+                            <div>
+                                <ul>
+                                    <li><a href=""><span><em>이벤트</em></span></a></li>
+                                    <li><a href=""><span><em>홍보</em></span></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb6">
+                            <a href="">공지사항</a>
+                        </li>
+                        <li class="gnb7">
+                            <a href="">QnA</a>
+                        </li>
+                    </ul>
+                    <button class="close"><span class="blind">전체 메뉴 닫기</span></button>
+                </nav>
+            </div>
+        </div>
+        <div class="grayBox"></div>
+        <!-- //side Menu -->
+
+
+        <!-- Swiper -->
+        <div class="swiper main_Area">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                    <div class="swiper-slide"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="arrow down-arrow"></div>
+            </div>
+        </div>
+
+        <!-- bestArea -->
+        <div class="bestArea">
+            <a href=""><h1>이번주 베스트 레시피</h1></a>
+            <div class="best_contents">
+                <div class="best_left">
+                    <img src="img/img_best_01.png" alt="참나물페스토파스타">
+                    <div class="bestText">
+                        <strong>참나물페스토파스타</strong>
+                        <p>향긋한 참나물과 올리브오일의 풍미가 어울러져 깔끔하고 담백한 맛을 자랑해요. 참나물 파스타로 싱그러운 봄의 청취를 한껏 느껴보세요.</p>
+                        <p class="btn_person">2인분</p>
+                        <p class="btn_level">초급</p>
+                        <p class="btn_time">20분</p>
+                    </div>
+                </div>
+                <div class="best_right">
+                    <ul class="contents">
+                        <li class="m_bestText">
+                            <a href="#">
+                                <figure>
+                                    <img src="img/img_best_01.png" alt="참나물페스토파스타">
+                                    <figcaption><span>참나물페스토파스타</span></figcaption>
+                                </figure>
+                            </a>
+                            <p><strong>참나물페스토파스타</strong></p>
+                            <p>향긋한 참나물과 올리브오일의 풍미의 어울림</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/img_best_02.PNG" alt="잔치국수호박">
+                                    <figcaption><span>잔치국수호박</span></figcaption>
+                                </figure>
+                            </a>
+                            <p><strong>잔치국수호박</strong></p>
+                            <p>호박을 사용해 만든 국수로 건강하고 맛있는 음식</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/img_best_03.PNG" alt="새싹 샐러드 김밥">
+                                    <figcaption><span>새싹 샐러드 김밥</span></figcaption>
+                                </figure>
+                            </a>
+                            <p><strong>새싹 샐러드 김밥</strong></p>
+                            <p>파릇파릇한 새싹의 기운을 담은 간단한 김밥</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/img_best_04.png" alt="토마토두부카르레제와 라임드레싱">
+                                    <figcaption><span>토마토두부카르레제와 라임드레싱</span></figcaption>
+                                </figure>
+                            </a>
+                            <p><strong>토마토두부카르레제와 라임드레싱</strong></p>
+                            <p>치즈 대신 고소하고 담백한 순두부와 토마토 조합</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/img_best_05.png" alt="병아리콩샌드위치">
+                                    <figcaption><span>병아리콩샌드위치</span></figcaption>
+                                </figure>
+                            </a>
+                            <p><strong>병아리콩샌드위치</strong></p>
+                            <p>고기, 햄 등을 넣지 않아도 맛있는 비건 샌드위치</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/img_best_06.jpg" alt="뿌리채소덮밥">
+                                    <figcaption><span>뿌리채소덮밥</span></figcaption>
+                                </figure>
+                            </a>
+                            <p><strong>뿌리채소덮밥</strong></p>
+                            <p>연근과 우엉을 찹쌀가루로 튀겨 만든 건강덮밥</p>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <figure>
+                                    <img src="img/img_best_07.png" alt="로메인썸머롤">
+                                    <figcaption><span>로메인썸머롤</span></figcaption>
+                                </figure>
+                            </a>
+                            <p><strong>로메인썸머롤</strong></p>
+                            <p>로메인과 각종 재료를 넣고 돌돌 말아만든 롤</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- myNote -->
+        <div class="myNote">
+            <a href="#"><h1>나의 레시피 노트</h1></a>
+            <div class="contentArea">
+                <div class="cont01">
+                    <div class="contMain">
+                        <img src="img/img_note_01.png" alt="비건 라따뚜이">
+                        <p><strong>비건 라따뚜이</strong></p>
+                        <p>프랑스식 채소 스튜 라따뚜이. 프로방스의 소박하고 따뜻한 가정식이에요.<br>만드는 방법도 간단하고 사이드, 빵이나 밥과 함께 먹어도 좋아요!</p>
+                        <p><em>#비건 #초간단 #건강한맛</em></p>
+                    </div>
+                    <div class="contMain">
+                        <img src="img/img_note_02.png" alt="건강 abc주스">
+                        <p><strong>건강 abc주스</strong></p>
+                        <p>5분으로 건강한 하루를 보낼 수 있는 비법! 사과, 비트, 당근이 들어간 ABC 주스예요.<br>해독주스로 딱인 ABC 주스 꾸준히 먹으며 건강 함께 챙겨요~</p>
+                        <p><em>#해독주스 #피부미용 #다이어트</em></p>
+                    </div>
+                </div>
+                <div class="cont02">
+                    <div class="contMenu">
+                        <a href="#" class="tab active" data-tab="latest"><strong>최신순</strong></a>
+                        <a href="#" class="tab" data-tab="popular">인기순</a>
+                        <a href="#" class="tab" data-tab="views">조회순</a>
+                    </div>
+                    <ul class="contList latest active">
+                        <li>
+                            <p class="contNum">01</p>
+                            <p><strong>전자레인지 순두부 덮밥</strong>불 없이 완성되는 전자레인지 요리 ! 집에 있는 채소와 순두부 한 봉만 있으면 뚝딱 ! 바쁜 아침,
+                                요리하기 귀찮은 날, 간단하게 먹고 싶은 날 만들어 보세요.</p>
+                            <img src="img/img_note_03.png" alt="전자레인지 순두부 덮밥">
+                        </li>
+                        <li>
+                            <p class="contNum">02</p>
+                            <p><strong>수박 카르파치오</strong>수박의 단맛과 페타 치즈의 짭조름한 맛이 잘 어울어지는 수박 카르파쵸 ! 라임의 시트러스 향과 올리브오일의
+                                부드러운 질감이 더해져 눈과 입을 즐겁게하는 요리에요.</p>
+                            <img src="img/img_note_04.png" alt="수박 카르파치오">
+                        </li>
+                        <li>
+                            <p class="contNum">03</p>
+                            <p><strong>시금치 샐러드</strong>시금치로 샐러드로 만들면 싱그러움을 가득 느낄 수 있어요. 연한 시금치 어린잎을 사용해 부드러운 식감을
+                                살리는 게 포인트 ! 식탁 위에 싱그러운 한 접시를 올려 보세요.</p>
+                            <img src="img/img_note_05.png" alt="시금치 샐러드">
+                        </li>
+                    </ul>
+                    <ul class="contList popular">
+                        <li>
+                            <p class="contNum">01</p>
+                            <p><strong>반숙 달걀장</strong>간이 잘 배어든 달걀 하나로 오늘 반찬 걱정 끝 ! 따뜻한 밥 위에 올려 비벼 먹으면 밥 한 공기 뚝딱 ! 만드는
+                                방법은 간단하지만 맛이 좋아요</p>
+                            <img src="img/img_note_popular_03.png" alt="반숙 달걀장">
+                        </li>
+                        <li>
+                            <p class="contNum">02</p>
+                            <p><strong>채식 김치</strong>젓갈을 사용하지 않고 채소와 과일로 만들어 깔끔한 맛이 일품이랍니다. 양념을 켜켜이 넣는 방법도 좋지만 이렇게
+                                간단한 무침처럼 김치를 만들어 보는 것도 추천드려요!</p>
+                            <img src="img/img_note_popular_04.png" alt="채식 김치">
+                        </li>
+                        <li>
+                            <p class="contNum">03</p>
+                            <p><strong>아보카도와사마요치즈김밥</strong>아보카도, 와사마요, 치즈를 활용해 풍부한 맛과 크리미한 식감을 강조한 김밥입니다. 시계방향으로 접어
+                                먹어, 각 재료의 맛이 잘 어우러지고 간편하게 즐길 수 있어요</p>
+                            <img src="img/img_note_popular_05.PNG" alt="아보카도와사마요치즈김밥">
+                        </li>
+                    </ul>
+                    <ul class="contList views">
+                        <li>
+                            <p class="contNum">01</p>
+                            <p><strong>원팬 잡채</strong>재료 손질, 볶기 등 손이 많이 가는 잡채 ! 팬 하나로 조리하면 빠르고 간단하게 만들 수 있어요. 고기가
+                                들어가지 않아 깔끔한 맛으로 잡채를 즐겨보세요 !</p>
+                            <img src="img/img_note_views_03.png" alt="원팬 잡채">
+                        </li>
+                        <li>
+                            <p class="contNum">02</p>
+                            <p><strong>채식 순두부찌개</strong>얼큰하면서도 부드럽게 넘어가는 순두부는 정말 매력적이에요. 입맛 없을 때, 뭐 먹을지 고민일 때 순두부찌개
+                                하나면 밥 한 공기는 뚝딱이랍니다.</p>
+                            <img src="img/img_note_views_04.png" alt="채식 순두부찌개">
+                        </li>
+                        <li>
+                            <p class="contNum">03</p>
+                            <p><strong>채소피클</strong>집에 남는 각종 채소를 모아 아삭하고 상큼한 피클을 담가보세요. 좀처럼 먹지 않던 채소도 피클로 담으면 새콤한
+                                맛에 중독되어 자꾸만 손이 갑니다.</p>
+                            <img src="img/img_note_views_05.png" alt="채소피클">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="store">
+            <a href="#"><h1>리뷰수 많은 식당</h1></a>
+            <div class="storeArea">
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="img/img_store_01.PNG" alt="써니보울">
+                            <a href="#" class="btn_veiw">MORE VIEW</a>
+                        </figure>
+                        <strong>써니보울</strong>
+                        <p>건강과 자연을 담긴 한그릇을 만드는 비건지향식당. 비건의 건강함만을 쏙 골라낸 써니보울만의 맛강한 &lt;맛있고 건강한&gt; 요리입니다.
+                        </p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/img_store_02.PNG" alt="플랜트 연남점">
+                            <a href="#" class="btn_veiw">MORE VIEW</a>
+                        </figure>
+                        <strong>플랜트 연남점</strong>
+                        <p>건강한 채식 메뉴와 유기농 식재료를 사용하고 플랜트는 비건 및 채식주의자들을 위한 다양한 음식을 제공하며, 맛있고 창의적인 요리를 즐길 수 있습니다.
+                        </p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/img_store_03.png" alt="프라랑카페">
+                            <a href="#" class="btn_veiw">MORE VIEW</a>
+                        </figure>
+                        <strong>프라랑카페</strong>
+                        <p>스페셜 원두를 사용한 드립커피와 드립백 커피를 제공하며, 수제 비건 빵과 케이크는 건강하고 맛있는 디저트로, 커피와 완벽한 조화를 이루는 프라랑카페입니다.
+                        </p>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="img/img_store_04.PNG" alt="비건마마">
+                            <a href="#" class="btn_veiw">MORE VIEW</a>
+                        </figure>
+                        <strong>비건마마</strong>
+                        <p>모든 커피는 프란츠원두를 사용하고 음료는 비건음료와 논비건음료가 준비되어 있고, 빵은 비건빵만 제공합니다. 맛있고 건강한 것만 주고 싶은 엄마 마음대로 비건마마입니다.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Swiper -->
+        <div class="event">
+            <a href="#"><h1>이벤트&amp;홍보</h1></a>
+        </div>
+        <div class="swiper eventArea">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/event_01.png" alt="메인이미지01">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/event_02.png" alt="메인이미지02">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/event_03.png" alt="메인이미지03">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/event_04.png" alt="메인이미지04">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/event_05.png" alt="메인이미지05">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+        <footer>
+            ⓒ 2024 VEGANA. ALL RIGHTS RESERVED.
+        </footer>
+    </div>
+
+
+    <script src="js/vegana.js"></script>
+</body>
+
+</html>
